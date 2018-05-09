@@ -1,0 +1,99 @@
+* {
+  border: 0.5px solid;
+}
+
+#encabezado {
+    z-index: 1;
+    height: 14.3%;
+    width: 98.8%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    }
+
+#centro{
+    height: 71.5%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-position: right bottom, left bottom;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background: url(http://2.bp.blogspot.com/-ESr_9iItjT8/UkV1KrZIYdI/AAAAAAAAWI8/Lj1lUFGnXPY/s1600/Descargar+Pack+Fondos+de+Pantalla+Personas+%252872%2529.jpg);
+    position: absolute;
+  }
+
+#pie {
+    clear: both;
+    height: 28.5%;
+    width:98.8%;
+    background-color: #668299;
+    position: ab;
+    bottom: 0;
+    left: 0;
+    }
+
+td{
+    height: 16%;
+    width: 100px;
+
+    }
+
+td img {
+    height: 16%;
+    box-shadow: none;
+    border-radius: 10px;
+    }
+
+div table {
+    padding-top: 5px;
+    margin: 0 auto; /* margin 0 y text align left centran la tabla*/
+    text-align: left;
+    }
+
+h1{
+    font-family:  Courier;
+    /*font-weight: bold;*/
+
+    font-size: 3em;
+    color:#ffffff;
+    text-align: left;
+    padding-top: 10%;
+    margin-left: 5%;
+    /*position:relative;*/
+    }
+
+#centro p   {
+    font-family: Arial;
+    color:#ffffff;
+    font-size:1.5em;
+    margin-left: 10%;
+    }
+
+#pie img {
+    margin-left: 30%;
+    height: 16%;
+    box-shadow: none;
+    border-radius: 10px;
+    float: right;
+    position: absolute;
+}
+
+#pie p {
+    color:#ffffff;
+    margin-left: 5%;
+    font-weight: bold;
+    font-family: Courier, serif;
+    }
+
+#pie ul {
+    font-family: Arial;
+    color:#ffffff;
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+    }
+
+td a:hover {
+    color:#cc0000;}
